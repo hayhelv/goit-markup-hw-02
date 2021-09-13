@@ -1,6 +1,6 @@
 body {
   background-color: #ffffff;
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 ul {
     list-style: none;
@@ -10,7 +10,7 @@ ul {
 */
 .logo {
     color:#212121;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -29,6 +29,11 @@ ul {
 .site-nav .link:focus {
     color: #2196F3;
 }
+
+.site-nav .link.current {
+    color: #2196F3;
+}
+
 .contacts a {
     color:#757575;
     font-weight: 500;
@@ -161,7 +166,7 @@ ul {
     background-color: #2F303A;
 }
 .end-logo {
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #ffffff;
     font-weight: 700;
     font-size: 26px;
