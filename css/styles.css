@@ -217,6 +217,7 @@ ul {
     line-height: 1.7;
     letter-spacing: 0.03em; 
     font-style: normal;
+    text-decoration: none;
 }
 .footer-nav :hover,
 .footer-nav :focus {
