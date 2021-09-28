@@ -34,7 +34,12 @@ ul {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    text-decoration: none;
 
+}
+
+.web {
+    color: var(--color-accent);
 }
 
 .site-nav .link {
@@ -43,6 +48,7 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -53,12 +59,13 @@ ul {
     color: var(--color-accent);
 }
 
-.contacts a {
+.contacts .contact {
     color: var(--main-color-text);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .contacts :hover,
 .contacts :focus {
@@ -79,9 +86,11 @@ ul {
     letter-spacing: 0.06em;
 
 }
-.hero-button {
+.hero-btn {
+    font-family: 'Roboto', sans-serif;
     cursor: pointer;
     color: var(--main-color-bg);
+    background-color: var(--color-accent);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -146,12 +155,14 @@ ul {
 
 */
 
-/*Фильтрfooter
+/*Фильтр
 
 */
-.portfolio-filter {
+.portfolio-filter .btn {
+    font-family: 'Roboto', sans-serif;
     cursor: pointer;
     color: var(--secondary-color-text);
+    background-color: var(--secondary-color-bg);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -159,15 +170,19 @@ ul {
     letter-spacing: 0.03em;
     
 }
+.portfolio-filter .btn.current{
+    color: var(--main-color-bg);
+    background-color: var(--color-accent);
+}
 
-.portfolio-choice h3 {
+.portfolio-choice .choice-title {
     color: var(--secondary-color-text);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
-.portfolio-choice p {
+.portfolio-choice .choice-text {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
@@ -185,19 +200,24 @@ ul {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
-/* .footer-text { 
-    color: #ffffff;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em; 
-} */
-.footer-nav a {
+ 
+.footer-nav .contact {
     color: var(--color-adress);
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
 } 
+.footer-nav .footer-text { 
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em; 
+    font-style: normal;
+}
 .footer-nav :hover,
 .footer-nav :focus {
     color: var(--color-accent);
